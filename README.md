@@ -51,5 +51,5 @@
 
 ## 📫 Let's Connect
 
-- 💼 LinkedIn: https://linkedin.com/in/your-link
-- 📧 Email: your-email
+- 💼 LinkedIn: [https://linkedin.com/in/your-link](https://www.linkedin.com/in/yue-liang-cassie/)
+- 📧 Email: liangyue3666@gmail.com
