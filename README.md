@@ -3,8 +3,8 @@
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=你的用户名)
 
 🎓 MSAI @ Northeastern University  
-💼 Ex-Data Analyst | Accounting @ SUFE  
-🚀 Building AI-powered productivity & psychology tools  
+💼 Ex-Auditor @ Deloitte → Bussiness Analyst → AI Systems Builder  
+🚀 Building LLM-based systems for productivity & mental health 
 
 ---
 
@@ -34,19 +34,6 @@
 ![Docker](https://img.shields.io/badge/-Docker-333?style=flat&logo=docker)
 ![AWS](https://img.shields.io/badge/-AWS-333?style=flat&logo=amazonaws)
 ![Git](https://img.shields.io/badge/-Git-333?style=flat&logo=git)
-
----
-
-## 🚀 Projects
-
-### 🔥 FinancialReport (LLM + RAG)
-- Multi-agent financial analysis system  
-- FastAPI + LangGraph + React  
-- RAG over financial data  
-
-### 🎬 VisoCode (AI Video Generation)
-- Text / LaTeX / PDF → animation  
-- Built with Manim + LLM pipeline  
 
 ---
 
