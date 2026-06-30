@@ -50,6 +50,14 @@ Java Spring Boot backend for local-services discovery, voucher purchasing, and f
 - [CS6120_finance_RAG](https://github.com/cassieliang6709/CS6120_finance_RAG) — financial analysis platform with retrieval and evidence-grounded report generation
 - [new_manim_video](https://github.com/cassieliang6709/new_manim_video) — AI-powered teaching animation generation system
 
+## Live Demos / Labs
+
+- [Tabspace Chrome Extension](https://chromewebstore.google.com/detail/tabspace/pigfllmaggabolcjieedkilhpdfcddai?hl=en) — new-tab workspace cleanup, tab grouping, reading queue, bookmark organization, and Reader Assist
+- [Tabspace Landing Page](https://cassieliang6709.github.io/tabspace-site/) — public product page and privacy-first positioning for the Chrome extension
+- [LeetCode Learning Platform](https://leetcode-learning-platform.vercel.app) — deployed learning product prototype for algorithm practice and interview prep
+- [Study Notes Hub](https://study-notes-murex-ten.vercel.app) — structured study hub for algorithms, OOD, system design, and AI systems
+- [GenAI TA Materials](https://cassieliang6709.github.io/TA-for-CS6180-Foundations-of-GenAI/) — teaching assistant resources for Foundations of Generative AI
+
 ## Technical Focus
 
 **Backend:** Java, Spring Boot, FastAPI, REST APIs, MySQL, PostgreSQL, Redis, Docker  
