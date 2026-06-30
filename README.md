@@ -55,8 +55,12 @@ Java Spring Boot backend for local-services discovery, voucher purchasing, and f
 - [Tabspace Chrome Extension](https://chromewebstore.google.com/detail/tabspace/pigfllmaggabolcjieedkilhpdfcddai?hl=en) — new-tab workspace cleanup, tab grouping, reading queue, bookmark organization, and Reader Assist
 - [Tabspace Landing Page](https://cassieliang6709.github.io/tabspace-site/) — public product page and privacy-first positioning for the Chrome extension
 - [LeetCode Learning Platform](https://leetcode-learning-platform.vercel.app) — deployed learning product prototype for algorithm practice and interview prep
+- [AI Projects Self-Study Hub](https://aiprojectsselfstudy.vercel.app) — practical self-study book for RAG, LLM-from-scratch, alignment, and agent/RL projects
+- [AI Teaching Animation Demo](https://newmanimvideo-cassieliang6709s-projects.vercel.app) — live demo surface for code-to-teaching-animation generation
+- [LCS Movie Recommender Demo](https://demo-site-drab-rho.vercel.app) — interactive sequence-based recommendation demo
 - [Study Notes Hub](https://study-notes-murex-ten.vercel.app) — structured study hub for algorithms, OOD, system design, and AI systems
 - [GenAI TA Materials](https://cassieliang6709.github.io/TA-for-CS6180-Foundations-of-GenAI/) — teaching assistant resources for Foundations of Generative AI
+- [Amazon VO Coding Book](https://amazon-vo-coding-book.vercel.app) — bilingual coding-prep handbook for mapping business prompts to algorithm patterns
 
 ## Technical Focus
 
