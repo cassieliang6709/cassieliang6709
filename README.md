@@ -47,17 +47,20 @@ Java Spring Boot backend for local-services discovery, voucher purchasing, and f
 
 - [personal_website](https://github.com/cassieliang6709/personal_website) — portfolio site for backend, AI systems, and recruiting-facing project presentation
 - [study_notes](https://github.com/cassieliang6709/study_notes) — interview prep, algorithms, OOD, system design, and AI systems notes
-- [CS6120_finance_RAG](https://github.com/cassieliang6709/CS6120_finance_RAG) — financial analysis platform with retrieval and evidence-grounded report generation
+- [CorpCheck](https://github.com/cassieliang6709/CS6120_finance_RAG) — financial RAG system for SEC filing ingestion, pgvector retrieval, and citation-grounded company analysis
+- [tabspace-newtab](https://github.com/cassieliang6709/tabspace-newtab) — Chrome new-tab workspace source for tab cleanup, Reader Assist, backup/restore, and store-ready release assets
+- [lcs-recommendation-system](https://github.com/cassieliang6709/lcs-recommendation-system) — sequence-based MovieLens recommender using LCS similarity, significance testing, and deployable demos
 - [new_manim_video](https://github.com/cassieliang6709/new_manim_video) — AI-powered teaching animation generation system
 
 ## Live Demos / Labs
 
 - [Tabspace Chrome Extension](https://chromewebstore.google.com/detail/tabspace/pigfllmaggabolcjieedkilhpdfcddai?hl=en) — new-tab workspace cleanup, tab grouping, reading queue, bookmark organization, and Reader Assist
 - [Tabspace Landing Page](https://cassieliang6709.github.io/tabspace-site/) — public product page and privacy-first positioning for the Chrome extension
+- [Tabspace Source](https://github.com/cassieliang6709/tabspace-newtab) — public extension source, verification tooling, release docs, and Chrome Web Store assets
 - [LeetCode Learning Platform](https://leetcode-learning-platform.vercel.app) — deployed learning product prototype for algorithm practice and interview prep
 - [AI Projects Self-Study Hub](https://aiprojectsselfstudy.vercel.app) — practical self-study book for RAG, LLM-from-scratch, alignment, and agent/RL projects
 - [AI Teaching Animation Demo](https://newmanimvideo-cassieliang6709s-projects.vercel.app) — live demo surface for code-to-teaching-animation generation
-- [LCS Movie Recommender Demo](https://demo-site-drab-rho.vercel.app) — interactive sequence-based recommendation demo
+- [LCS Movie Recommender Demo](https://demo-site-drab-rho.vercel.app) — interactive sequence-based recommendation demo ([source](https://github.com/cassieliang6709/lcs-recommendation-system))
 - [Study Notes Hub](https://study-notes-murex-ten.vercel.app) — structured study hub for algorithms, OOD, system design, and AI systems
 - [GenAI TA Materials](https://cassieliang6709.github.io/TA-for-CS6180-Foundations-of-GenAI/) — teaching assistant resources for Foundations of Generative AI
 
