@@ -60,7 +60,6 @@ Java Spring Boot backend for local-services discovery, voucher purchasing, and f
 - [LCS Movie Recommender Demo](https://demo-site-drab-rho.vercel.app) — interactive sequence-based recommendation demo
 - [Study Notes Hub](https://study-notes-murex-ten.vercel.app) — structured study hub for algorithms, OOD, system design, and AI systems
 - [GenAI TA Materials](https://cassieliang6709.github.io/TA-for-CS6180-Foundations-of-GenAI/) — teaching assistant resources for Foundations of Generative AI
-- [Amazon VO Coding Book](https://amazon-vo-coding-book.vercel.app) — bilingual coding-prep handbook for mapping business prompts to algorithm patterns
 
 ## Technical Focus
 
