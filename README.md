@@ -1,77 +1,62 @@
-# Yue (Cassie) Liang
+# Hi, I'm Cassie.
 
-M.S. in Artificial Intelligence at Northeastern University. I build backend and AI systems across recommendation pipelines, LLM/RAG applications, iOS AI products, and Java backend infrastructure.
+I'm a software engineer building AI systems people can actually use—from retrieval and agent memory to SwiftUI products.
 
-Currently focused on three portfolio systems:
+I'm currently pursuing an M.S. in Artificial Intelligence at Northeastern University, where I'm also a graduate TA for Foundations of Generative AI. Before engineering, I studied accounting and worked in audit at Deloitte. That background still shows up in how I build: I care about where an answer came from, what the system is allowed to do, and how we know it works.
 
-- **Search / Recommendation:** retrieval, ranking, FAISS, LightGBM, PyTorch, FastAPI
-- **AI Product:** SwiftUI, Screen Time, AI reflection, RAG direction, privacy-aware workflows
-- **Java Backend:** Spring Boot, Redis caching, concurrency control, flash-sale workflows
+[Portfolio](https://liangyue.site) · [LinkedIn](https://www.linkedin.com/in/yue-liang-195960384/) · [Email](mailto:liangyue3666@gmail.com)
 
-## Featured Projects
+## What I'm building
 
-### [JobFit AI](https://github.com/cassieliang6709/jobfit-ai)
+### [MindBridge](https://github.com/cassieliang6709/mindbridge) — memory for AI coding agents
 
-Career intelligence and recommendation pipeline for matching candidates with high-fit jobs and learning content.
+A local-first service that gives Claude Code, Codex, and other agents useful context across sessions.
 
-- Multi-stage candidate generation with popularity, ItemCF, two-tower retrieval, and FAISS
-- LightGBM ranking with profile, behavior, recency, and embedding similarity features
-- LLM reasoning layer for recommendation explanations and skill-gap analysis
-- Human-in-the-loop design: recommends and explains, but does not auto-apply
+- Incrementally parsed coding-agent logs into **13,072 turns and 242 session cards**
+- Stored raw turns, searchable memories, and preferences in PostgreSQL / pgvector with links back to their sources
+- Exposed the same write and search paths through MCP so multiple agents can share one memory service
+- Fine-tuned Qwen2.5-3B with MLX LoRA for structured extraction, reaching **86.7% validity on 45 held-out cases**
 
-**Stack:** Python, PyTorch, FastAPI, PostgreSQL, Redis, FAISS, LightGBM, Docker, OpenAI API
+[Code](https://github.com/cassieliang6709/mindbridge) · [Demo](https://mindbridge.liangyue.site/interview-demo)
 
-### [Locki AI Companion](https://github.com/cassieliang6709/locki-ai-companion)
+### [Vance](https://github.com/cassieliang6709/fitness-coach-ios) — an AI fitness coach that can update the workout
 
-SwiftUI focus and emotional accountability companion built around task-gated Screen Time controls.
+I designed Vance in Figma, then built the iOS app and backend. It turns equipment photos, goals, and injuries into a training plan, then lets the user change weights or swap exercises without leaving the workout.
 
-- Task-gated unlock flows for distracting apps
-- Family Controls, DeviceActivity, Shield extensions, WidgetKit, and Vision OCR
-- AI gateway for gentle task generation and reflection
-- Privacy-aware design where AI stays advisory and local rules control unlocks
+- Streams typed tool calls to the app; iOS executes only allowlisted actions
+- Keeps **1,324 exercises** in D1, with 50 core exercises available offline
+- Uses spoken feedback and TTS to announce the next set hands-free
 
-**Stack:** SwiftUI, Family Controls, DeviceActivity, WidgetKit, Vision OCR, Node.js AI Gateway
+[Code](https://github.com/cassieliang6709/fitness-coach-ios) · [Demo](https://vance.liangyue.site)
 
-### [LifePulse Backend](https://github.com/cassieliang6709/lifepulse-backend)
+### [CorpCheck](https://github.com/cassieliang6709/corpcheck) — SEC filing retrieval that knows when not to answer
 
-Java Spring Boot backend for local-services discovery, voucher purchasing, and flash-sale ordering under high read traffic.
+A financial research system built around evidence retrieval rather than a confident-sounding chatbot.
 
-- Multi-level caching with Caffeine and Redis
-- Flash-sale concurrency protection with Redis Lua and Redisson
-- MyBatis persistence and layered Spring Boot architecture
-- JMeter-driven performance and reliability roadmap
+- Searches **1,662 SEC filings / 469,874 chunks** with pgvector, BM25, and reciprocal-rank fusion
+- Filters by company, fiscal year, form, and amendment version before ranking
+- Skips the LLM when the retrieved evidence falls below calibrated thresholds
+- Reduced top-10 evidence misses from **19 to 4** on 35 FinanceBench questions
 
-**Stack:** Java, Spring Boot, Spring MVC, MyBatis, MySQL, Redis, Caffeine, Redisson, JMeter
+[Code](https://github.com/cassieliang6709/corpcheck) · [Demo](https://corpcheck.liangyue.site)
 
-## Supporting Work
+### [1Day](https://github.com/cassieliang6709/1day-ios) — a collaborative video diary for iOS
 
-- [personal_website](https://github.com/cassieliang6709/personal_website) — portfolio site for backend, AI systems, and recruiting-facing project presentation
-- [study_notes](https://github.com/cassieliang6709/study_notes) — interview prep, algorithms, OOD, system design, and AI systems notes
-- [CorpCheck](https://github.com/cassieliang6709/CS6120_finance_RAG) — financial RAG system for SEC filing ingestion, pgvector retrieval, and citation-grounded company analysis
-- [tabspace-newtab](https://github.com/cassieliang6709/tabspace-newtab) — Chrome new-tab workspace source for tab cleanup, Reader Assist, backup/restore, and store-ready release assets
-- [lcs-recommendation-system](https://github.com/cassieliang6709/lcs-recommendation-system) — sequence-based MovieLens recommender using LCS similarity, significance testing, and deployable demos
-- [new_manim_video](https://github.com/cassieliang6709/new_manim_video) — AI-powered teaching animation generation system
+A local-first iOS app that turns short daily clips into a shared film without sending video rendering to a server.
 
-## Live Demos / Labs
+- Renders orientation, transitions, captions, audio, and MP4 export on-device with AVFoundation
+- Syncs rooms, participants, and clips through CloudKit while keeping solo mode account-free
+- Currently in private beta with **28 / 28 XCTest cases passing**
 
-- [Tabspace Chrome Extension](https://chromewebstore.google.com/detail/tabspace/pigfllmaggabolcjieedkilhpdfcddai?hl=en) — new-tab workspace cleanup, tab grouping, reading queue, bookmark organization, and Reader Assist
-- [Tabspace Landing Page](https://cassieliang6709.github.io/tabspace-site/) — public product page and privacy-first positioning for the Chrome extension
-- [Tabspace Source](https://github.com/cassieliang6709/tabspace-newtab) — public extension source, verification tooling, release docs, and Chrome Web Store assets
-- [LeetCode Learning Platform](https://leetcode-learning-platform.vercel.app) — deployed learning product prototype for algorithm practice and interview prep
-- [AI Projects Self-Study Hub](https://aiprojectsselfstudy.vercel.app) — practical self-study book for RAG, LLM-from-scratch, alignment, and agent/RL projects
-- [AI Teaching Animation Demo](https://cassieliang6709.github.io/new_manim_video/) — live demo surface for code-to-teaching-animation generation
-- [LCS Movie Recommender Demo](https://demo-site-drab-rho.vercel.app) — interactive sequence-based recommendation demo ([source](https://github.com/cassieliang6709/lcs-recommendation-system))
-- [GenAI TA Materials](https://cassieliang6709.github.io/TA-for-CS6180-Foundations-of-GenAI/) — teaching assistant resources for Foundations of Generative AI
+[Code](https://github.com/cassieliang6709/1day-ios) · [Demo](https://1day.liangyue.site)
 
-## Technical Focus
+## Work and selected projects
 
-**Backend:** Java, Spring Boot, FastAPI, REST APIs, MySQL, PostgreSQL, Redis, Docker  
-**AI/ML:** PyTorch, FAISS, LightGBM, RAG, embeddings, QLoRA, OpenAI API, MCP  
-**Systems:** caching, async processing, reliability, concurrency control, evaluation pipelines  
-**Mobile:** SwiftUI, Family Controls, DeviceActivity, WidgetKit, Vision OCR
+- **Smith-Kettlewell Eye Research Institute:** built a React review UI and FastAPI pipeline using Whisper, VLM / LLM, and TTS for audio-description authoring. In a 30-participant study, manual authoring time fell **64%** from the baseline editor.
+- **[VisoCode](https://github.com/cassieliang6709/new_manim_video):** LangGraph agents generate, audit, run, and repair Manim lessons inside Docker sandboxes. Winner of the **AdventureX 2025 Best Technical Award**.
+- **[Cassie Capture](https://github.com/cassieliang6709/cassie-capture):** a Chrome extension that captures restricted long webpages in segments and merges them into a complete PDF.
+- **[Tabspace](https://chromewebstore.google.com/detail/tabspace/pigfllmaggabolcjieedkilhpdfcddai):** a local-first Chrome workspace for tabs and bookmarks, with a review step before bulk changes.
 
-## Contact
+## Tools I reach for
 
-- Portfolio: [cassieliang6709.github.io/personal_website](https://cassieliang6709.github.io/personal_website/)
-- LinkedIn: [linkedin.com/in/yue-liang-195960384](https://www.linkedin.com/in/yue-liang-195960384/)
-- Email: liangyue3666@gmail.com
+Python, TypeScript, Swift, SQL · FastAPI, PostgreSQL / pgvector, Redis, Docker · RAG, BM25 / RRF, MCP, MLX LoRA, offline evaluation · React, SwiftUI, AVFoundation, Chrome MV3
