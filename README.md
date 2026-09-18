@@ -8,7 +8,7 @@ Software engineer building AI systems people can actually use—retrieval, agent
 
 **On the App Store.** Pick a theme, follow a few filming prompts, and the app turns the clips into a short film—on your own or in a story shared with friends. I built the iOS app end to end: the film is assembled entirely on-device with AVFoundation, and shared stories sync through CloudKit.
 
-[App Store](https://apps.apple.com/us/app/1-day/id6794565199) · [Website](https://1day.liangyue.site/en) · [Code](https://github.com/cassieliang6709/1day-ios)
+[App Store](https://apps.apple.com/us/app/1-day/id6794565199) · [Website](https://1day.liangyue.site) · [Code](https://github.com/cassieliang6709/1day-ios)
 
 ## Other projects
 
