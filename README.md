@@ -1,5 +1,10 @@
 # Hi, I'm Cassie.
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/readme/typing-dark.svg">
+  <img src="./assets/readme/typing-light.svg" width="600" alt="Building AI systems people can actually use · agent memory for Claude Code and Codex · search that refuses when the evidence is weak · SwiftUI apps on the App Store">
+</picture>
+
 Software engineer building AI systems people can actually use—retrieval, agent memory, and SwiftUI products. I'm doing an M.S. in Artificial Intelligence at Northeastern, where I'm also a graduate TA for Generative AI, and interning at Tiiny AI. Before engineering I audited at Deloitte, which is why I care where an answer came from and how we know it works.
 
 [Portfolio](https://liangyue.site) · [LinkedIn](https://www.linkedin.com/in/yue-liang-195960384/) · [Email](mailto:liangyue3666@gmail.com)
