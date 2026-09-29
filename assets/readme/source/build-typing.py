@@ -8,10 +8,10 @@ from pathlib import Path
 from xml.sax.saxutils import escape
 
 LINES = [
-    "building AI systems people can actually use",
-    "agent memory for Claude Code and Codex",
-    "search that refuses when the evidence is weak",
-    "SwiftUI apps on the App Store",
+    "M.S. in AI @ Northeastern · SWE intern @ Tiiny AI",
+    "a video diary you can make with friends",
+    "one memory shared by Claude Code and Codex",
+    "an AI coach that changes the workout mid-session",
 ]
 
 TYPE_MS = 55  # per character
@@ -21,8 +21,9 @@ GAP_MS = 380  # empty line before the next one
 
 FONT_SIZE = 28
 CHAR_W = FONT_SIZE * 0.6  # monospace advance; textLength pins every line to this grid
-WIDTH, HEIGHT = 840, 60
+HEIGHT = 60
 TEXT_X = 44  # after the prompt
+WIDTH = round(TEXT_X + max(map(len, LINES)) * CHAR_W + 24)  # canvas fits the longest line
 BASELINE = 39
 
 THEMES = {

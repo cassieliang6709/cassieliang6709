@@ -2,7 +2,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/readme/typing-dark.svg">
-  <img src="./assets/readme/typing-light.svg" width="600" alt="Building AI systems people can actually use · agent memory for Claude Code and Codex · search that refuses when the evidence is weak · SwiftUI apps on the App Store">
+  <img src="./assets/readme/typing-light.svg" width="640" alt="M.S. in AI at Northeastern, SWE intern at Tiiny AI · a video diary you can make with friends · one memory shared by Claude Code and Codex · an AI coach that changes the workout mid-session">
 </picture>
 
 Software engineer building AI systems people can actually use—retrieval, agent memory, and SwiftUI products. I'm doing an M.S. in Artificial Intelligence at Northeastern, where I'm also a graduate TA for Generative AI, and interning at Tiiny AI. Before engineering I audited at Deloitte, which is why I care where an answer came from and how we know it works.
