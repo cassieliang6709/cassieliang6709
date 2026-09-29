@@ -11,7 +11,8 @@ LINES = [
     "M.S. in AI @ Northeastern · SWE intern @ Tiiny AI",
     "a video diary you can make with friends",
     "one memory shared by Claude Code and Codex",
-    "an AI coach that changes the workout mid-session",
+    "now learning AI infra and RL post-training",
+    "GRPO on GSM8K: 34.7% → 52.2% on one 4090",
 ]
 
 TYPE_MS = 55  # per character
