@@ -5,7 +5,11 @@
   <img src="./assets/readme/typing-light.svg" width="640" alt="M.S. in AI at Northeastern, SWE intern at Tiiny AI · a video diary you can make with friends · one memory shared by Claude Code and Codex · now learning AI infra and RL post-training · GRPO on GSM8K: 34.7% to 52.2% on one RTX 4090">
 </picture>
 
-Software engineer building AI systems people can actually use—retrieval, agent memory, and SwiftUI products. I'm doing an M.S. in Artificial Intelligence at Northeastern, where I'm also a graduate TA for Generative AI, and interning at Tiiny AI. Before engineering I audited at Deloitte, which is why I care where an answer came from and how we know it works.
+I’m Cassie, an AI master’s student at Northeastern and an independent developer. I built 1Day, a native iOS app for turning everyday video clips into collaborative short films, with on-device video assembly. I also build tools for AI developers, including MindBridge, a memory system for coding agents.
+
+My open-source contributions include merged changes to Open-Less for microphone reliability and Raycast-Easydict for Anki integration. I’m now focusing on LLM inference systems, with a CPU image-preprocessing cache optimization PR open in SGLang. I enjoy building usable products and digging into the systems behind them.
+
+GitHub: [github.com/cassieliang6709](https://github.com/cassieliang6709)
 
 [Portfolio](https://liangyue.site) · [LinkedIn](https://www.linkedin.com/in/yue-liang-195960384/) · [Email](mailto:liangyue3666@gmail.com)
 
