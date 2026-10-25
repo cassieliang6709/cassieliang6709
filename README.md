@@ -5,46 +5,58 @@
   <img src="./assets/readme/typing-light.svg" width="640" alt="M.S. in AI at Northeastern, SWE intern at Tiiny AI · a video diary you can make with friends · one memory shared by Claude Code and Codex · now learning AI infra and RL post-training · GRPO on GSM8K: 34.7% to 52.2% on one RTX 4090">
 </picture>
 
-I’m Cassie, an AI master’s student at Northeastern and an independent developer. I built 1Day, a native iOS app for turning everyday video clips into collaborative short films, with on-device video assembly. I also build tools for AI developers, including MindBridge, a memory system for coding agents.
+AI master's student at Northeastern, SWE intern at Tiiny AI. I'm focusing on **LLM inference and training systems** — reading SGLang and nano-vllm, working through CS336, and running small, controlled experiments on one GPU. On the side I ship products: 1Day is on the App Store.
 
-My open-source contributions include merged changes to Open-Less for microphone reliability and Raycast-Easydict for Anki integration. I’m now focusing on LLM inference systems, with a CPU image-preprocessing cache optimization PR open in SGLang. I enjoy building usable products and digging into the systems behind them.
+[Portfolio](https://liangyue.site) · [Notes](https://notes.liangyue.site) · [LinkedIn](https://www.linkedin.com/in/yue-liang-195960384/) · [Email](mailto:liangyue3666@gmail.com)
 
-GitHub: [github.com/cassieliang6709](https://github.com/cassieliang6709)
+## Open source
 
-[Portfolio](https://liangyue.site) · [LinkedIn](https://www.linkedin.com/in/yue-liang-195960384/) · [Email](mailto:liangyue3666@gmail.com)
+| Project | Contribution | Status |
+|---|---|---|
+| [SGLang](https://github.com/sgl-project/sglang) | Cache CPU image-preprocessing artifacts for MiniMax-M3 multimodal serving — [#44181](https://github.com/sgl-project/sglang/pull/44181) | 🟡 Open |
+| [OpenLess](https://github.com/Open-Less/openless) | Prefer the microphone's native format and reject empty recordings — [#1135](https://github.com/Open-Less/openless/pull/1135) | ✅ Merged |
+| [Raycast-Easydict](https://github.com/tisfeng/Raycast-Easydict) | Send favorite words to Anki — [#109](https://github.com/tisfeng/Raycast-Easydict/pull/109) | ✅ Merged |
+| [modular-diary](https://github.com/IvyYang1999/modular-diary) | 6 PRs: checkbox-list todos, drag-to-timeline, current-time marker, CI test-runner fix — [#2–#7](https://github.com/IvyYang1999/modular-diary/pulls?q=is%3Apr+author%3Acassieliang6709) | ✅ Merged |
 
-## 1Day — a video diary you can make with friends
+## LLM systems & research
 
-**On the App Store.** Pick a theme, follow a few filming prompts, and the app turns the clips into a short film—on your own or in a story shared with friends. I built the iOS app end to end: the film is assembled entirely on-device with AVFoundation, and shared stories sync through CloudKit.
+**GRPO on GSM8K** — baseline → LoRA SFT → GRPO reproduction on a single RTX 4090: 34.7% → 52.2%.
+[Code](https://github.com/cassieliang6709/ai-infra-gsm8k)
 
-[App Store](https://apps.apple.com/us/app/1-day/id6794565199) · [Website](https://1day.liangyue.site) · [Code](https://github.com/cassieliang6709/1day-ios)
+**Stop-token study** — does a chat model learn to stop if its end token never appeared in pretraining? A controlled MiniMind pretraining experiment.
+[Code](https://github.com/cassieliang6709/stop-token-study)
 
-## Other projects
+**Agent honesty eval** — does a coding agent admit a task is impossible? MBPP-derived tasks with contradictory tests, a tamper-proof grader, Qwen2.5-Coder 3B/7B results.
+[Code](https://github.com/cassieliang6709/agent-honesty-eval)
 
-**MindBridge** — memory for AI coding agents. A local-first service that turns Claude Code and Codex logs into searchable memories in PostgreSQL / pgvector, served over MCP so several agents share one memory.
-[Code](https://github.com/cassieliang6709/mindbridge) · [Demo](https://mindbridge.liangyue.site/interview-demo)
-
-**Vance** — an AI fitness coach that can change the workout. It reads photos of your equipment and builds a plan, then swaps an exercise or adjusts a weight mid-session through tool calls the app only runs from an allowlist.
-[Code](https://github.com/cassieliang6709/fitness-coach-ios) · [Demo](https://vance.liangyue.site)
-
-**CorpCheck** — SEC filing search that knows when not to answer. It fuses vector and full-text search over filings, filters by company, year, form, and amendment version, and refuses outright when the evidence is too weak.
+**CorpCheck** — SEC filing search that knows when not to answer: vector + full-text retrieval fused with RRF, revision-aware filtering, deterministic IR evaluation, refusal on weak evidence.
 [Code](https://github.com/cassieliang6709/corpcheck) · [Demo](https://corpcheck.liangyue.site)
 
-**OpenTranscript** — read a video instead of watching it. A Chrome extension and local service that put a searchable transcript beside a YouTube or Bilibili video and turn it into a Markdown note with clickable timestamps.
-[Code](https://github.com/cassieliang6709/open-transcript) · [Download](https://github.com/cassieliang6709/open-transcript/releases/latest)
+## Products
 
-**VisoCode** — LangGraph agents that write, audit, run, and repair Manim lessons inside Docker sandboxes. Winner of the AdventureX 2025 Best Technical Award.
+**1Day** — a video diary you can make with friends. Follow filming prompts and the app assembles a short film entirely on-device (AVFoundation); shared stories sync through CloudKit. Built end to end.
+[App Store](https://apps.apple.com/us/app/1-day/id6794565199) · [Website](https://1day.liangyue.site) · [Code](https://github.com/cassieliang6709/1day-ios)
+
+**MindBridge** — one memory shared by Claude Code and Codex. Turns agent logs into searchable memories in PostgreSQL / pgvector, served over MCP.
+[Code](https://github.com/cassieliang6709/mindbridge) · [Demo](https://mindbridge.liangyue.site/interview-demo)
+
+**VisoCode** — LangGraph agents that write, audit, run and repair Manim lessons in Docker sandboxes. AdventureX 2025 Best Technical Award.
 [Code](https://github.com/cassieliang6709/new_manim_video)
 
-**Tabspace** — a local-first Chrome workspace for tabs and bookmarks, with a review step before any bulk change.
-[Chrome Store](https://chromewebstore.google.com/detail/tabspace/pigfllmaggabolcjieedkilhpdfcddai)
+**OpenTranscript** — a searchable transcript beside any YouTube / Bilibili video, exported as a Markdown note with clickable timestamps.
+[Code](https://github.com/cassieliang6709/open-transcript) · [Download](https://github.com/cassieliang6709/open-transcript/releases/latest)
+
+**Vance** — an AI fitness coach that edits your workout mid-session through allowlisted tool calls.
+[Code](https://github.com/cassieliang6709/fitness-coach-ios) · [Demo](https://vance.liangyue.site)
 
 ## Work
 
-**Tiiny AI** — SWE intern, Jul 2026–present. Building an agent skills platform: catalog APIs, the desktop install and update experience, and a Rust/Python distribution backend handling versioning, validation, rollback, and permission checks.
+**Tiiny AI** — SWE intern, Jul 2026–present. Agent skills platform: catalog APIs, desktop install/update flow, and a Rust/Python distribution backend with versioning, validation, rollback and permission checks.
 
-**Deloitte** — audit assistant, 2023–2024. Automated ledger reconciliation and encoded recurring review checks as configurable rules.
+**Northeastern** — TA, CS6180 Foundations of Generative AI.
 
-## Tools I reach for
+**Deloitte** — audit assistant, 2023–2024. Automated ledger reconciliation; encoded recurring review checks as configurable rules.
 
-Python, TypeScript, Swift, Rust, SQL · FastAPI, PostgreSQL / pgvector, Redis, Docker · RAG, Postgres FTS / RRF, MCP, MLX LoRA, offline evaluation · React, SwiftUI, AVFoundation, Chrome MV3
+## Stack
+
+Python · TypeScript · Swift · Rust · SQL — PyTorch, SGLang, MLX · FastAPI, PostgreSQL / pgvector, Redis, Docker · RAG, MCP, LoRA / GRPO · SwiftUI, AVFoundation, React
