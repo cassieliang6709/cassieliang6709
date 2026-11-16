@@ -15,6 +15,17 @@ Software engineer building AI systems people can actually use—retrieval, agent
 
 [App Store](https://apps.apple.com/us/app/1-day/id6794565199) · [Website](https://1day.liangyue.site) · [Code](https://github.com/cassieliang6709/1day-ios)
 
+## mini-vLLM — mixed decode / chunked-prefill batching
+
+**A fork of nano-vllm.** Each step, the scheduler gives every running request one decode token, then fills the leftover token budget with prefill chunks from any number of waiting requests. It also ships an OpenAI-compatible streaming server. CPU tests for the scheduler and KV-block invariants pass; GPU benchmarks have not been run yet.
+
+[Code](https://github.com/cassieliang6709/mini-vllm)
+
+## Technical notes
+
+**LLM technical notes** (in Chinese) — post-training, pretraining, and agent-eval experiments on one RTX 4090, each written up with setup, result tables, analysis, and limitations: GSM8K SFT / CoT distillation / GRPO, an end-token pretraining ablation, and a coding-agent honesty eval.
+[Read online](https://liangyue.site/#notes) · [Source](https://github.com/cassieliang6709/llm-study-notes) · [GSM8K post-training](https://github.com/cassieliang6709/ai-infra-gsm8k) · [Stop-token study](https://github.com/cassieliang6709/stop-token-study) · [Agent honesty eval](https://github.com/cassieliang6709/agent-honesty-eval)
+
 ## Other projects
 
 **MindBridge** — memory for AI coding agents. A local-first service that turns Claude Code and Codex logs into searchable memories in PostgreSQL / pgvector, served over MCP so several agents share one memory.
